@@ -1,0 +1,143 @@
+body {
+	width: 80%;
+	width: 940px; /*Largura da pagina */
+	margin-left: auto; /* centralizando a página saindo do lado esquerdo*/
+	margin-right: auto; /*centralizando a página saindo do lado direito*/
+
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Helvetica", "Lucida Grande", sans-serif; /*Fonte das letras*/
+	color: #3d3d3d; /*Cor das letras*/
+}
+
+.titulo { /*Classe para titutlos*/
+	padding: 10px; /*espaço interno de 10pixels*/
+	
+	font-size: 32px; /*é usada para indicar o tamanho da letra*/
+
+	background-color: #E1EdF2; /*Fundo do titulo */
+}
+
+.subtitulo { /*Classe para subtitutlos*/
+	border-bottom: 2px solid black; /*Borda na parte inferior do sub titulo*/
+}
+
+figure { /*Seletor de para estilização CSS*/
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 30px; /*espaço externo */
+	padding: 15px; /*espaço interno*/
+
+	text-align: center; /*centralizando o texto*/
+
+	background-color: whitesmoke; /*fundo com cor */
+	border: 1px solid lightgrey; /*borda*/
+}
+
+figcaption {
+	margin-top: 10px; /*espaço externo superior*/
+}
+
+.matriz-musicdot {
+	width: 550px; /*Largura da foto*/
+	margin-left: auto; /*Margin left e righ estando em auto centralizam a imagem no meio da página*/
+	margin-right: auto;
+}
+
+.familia-tupfeln {
+	width: 275px;
+	float: right;
+
+}
+
+figure img {
+	width: 100%;
+}
+
+.contato__subtitulo {
+	display: inline;
+}
+
+.contato__secao {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 16px;
+}
+
+.contato__secao--telefone {
+	margin-left: 32px;
+}
+
+.contato__info {
+	margin: 16px 0 24px;
+	padding-left: 32px;
+}
+
+.pessoa__info-titulo,
+.contato__info-descricao {
+	display: inline;
+}
+
+.contato__info-descricao {
+	margin-left: 10px;
+}
+
+.rodape {
+	padding: 1.75em 0;
+
+	font-size: 1.1rem;
+}
+
+.rodape__logo {
+	width: 6em;
+}
+
+.rodape__copyright {
+	display: inline;
+	margin-left: 1em;
+}
+
+@media (max-width: 850px) {
+
+	.contato__secao {
+		display: block;
+		margin-left: 1em;
+	}
+}
+
+@media (max-width: 622px) {
+
+	.familia-tupfeln {
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 446px) {
+
+	.contato__subtitulo {
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.contato__info {
+		padding-left: 5px;
+	
+		font-size: .92em;
+	
+		border-left: 2px solie lightgray;
+	}
+
+	.rodape {
+		font-size: .92em;
+	}
+	
+}
+
+@media (max-width: 342) {
+
+	.contato__info-descricao {
+		display: block;
+		margin-left: 1em;
+	}
+}
