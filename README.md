@@ -41,3 +41,5 @@ Licença:
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
 Sinta-se à vontade para ajustar conforme necessário! 🎶
+
+![musicdot](https://github.com/romario-rodrigues/projeto-musicdote/blob/main/projeto-musicdote/Captura%20de%20tela%20de%202025-03-10%2015-45-16.png)
